@@ -1,0 +1,9 @@
+THE PACKAGES
+
+$ npm install express socket.io mongoose cors dotenv
+
+socket.io: The WebSocket library for real-time, bidirectional communication between web clients and servers. This is the heart of our real-time dashboard.
+
+mongoose: An elegant MongoDB object modeling tool for Node.js. It simplifies interaction with MongoDB databases.
+
+cors: A Node.js package for providing a Connect/Express middleware that can be used to enable Cross-Origin Resource Sharing (CORS) with various options. Essential for allowing your frontend to communicate with your backend when they are on different ports/domains.

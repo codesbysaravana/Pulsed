@@ -1,0 +1,8 @@
+THE PACKAGES
+$ npm install socket.io-client framer-motion recharts
+
+socket.io-client: The client-side library for Socket.IO, allowing your React application to establish and manage WebSocket connections with the server.
+
+framer-motion: A production-ready animation library for React. It will be used for smooth transitions and animated counters on the dashboard.
+
+recharts: A composable charting library built with React and D3. It will be used to display real-time data visually.

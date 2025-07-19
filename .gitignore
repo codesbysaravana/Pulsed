@@ -1,0 +1,62 @@
+# ========================
+# Node.js + Vite Projects
+# ========================
+
+# Ignore node_modules everywhere
+**/node_modules/
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore environment variable files
+.env
+.env.*
+!.env.example
+
+# Ignore runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Ignore lockfiles (optional based on team conventions)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage output
+coverage/
+*.lcov
+
+# Debugging
+*.swp
+*.bak
+*.tmp
+*.temp
+*.orig
+node_repl_history
+
+# Ignore Drizzle-generated files (optional)
+drizzle/migrations/
+drizzle/schema.ts
