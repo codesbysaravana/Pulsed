@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-export const socket = io("http://localhost:4000");
+export const socket = io("https://pulsed-backend.onrender.com");
 
 socket.on("connect", () => {
     console.log("✅ Connected to WebSocket server!");
